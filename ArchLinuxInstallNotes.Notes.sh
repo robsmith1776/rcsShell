@@ -51,6 +51,7 @@ links
 # https://www.gnu.org/software/parted/manual/html_node/mkpart.html
 # https://www.reddit.com/r/linuxquestions/comments/7xyj4s/information_you_may_need_to_update_etcfstab_when/
 # https://www.tecmint.com/create-disk-partitions-in-linux/
+# https://wiki.archlinux.org/title/SSH_keys#Generating_an_SSH_key_pair
 
 Drives
 sudo parted -l
