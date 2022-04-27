@@ -17,7 +17,7 @@ sudo systemctl status sshd
 sudo systemctl enable sshd
 
 # check ip
-ip a | igrep inet
+ip a | igrep inet | awk 'NR==3'
 
 Keeping a list of all the explicitly installed packages can be useful, to backup a system for example or speed up installation on a new system:
 
