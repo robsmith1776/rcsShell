@@ -25,3 +25,36 @@
 	<string>1647273097813</string>
 </dict>
 </plist>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Protocol</key>
+	<string>sftp</string>
+	<key>Provider</key>
+	<string>iterate GmbH</string>
+	<key>Nickname</key>
+	<string>SFTP - airflow</string>
+	<key>UUID</key>
+	<string>6d5d7eb8-afde-4d78-a2e1-3a746d9598e8</string>
+	<key>Hostname</key>
+	<string>xxxx-xxxx-xxxx.xxxx.xxxx.com</string>
+	<key>Port</key>
+	<string>22</string>
+	<key>Username</key>
+	<string>xxxx</string>
+	<key>Private Key File</key>
+	<string>~/.ssh/xxxx</string>
+	<key>Private Key File Dictionary</key>
+	<dict>
+		<key>Path</key>
+		<string>~/.ssh/xxxx</string>
+	</dict>
+	<key>Access Timestamp</key>
+	<string>1668111401036</string>
+	<key>Labels</key>
+	<array>
+	</array>
+</dict>
+</plist>
