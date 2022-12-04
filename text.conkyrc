@@ -7,8 +7,9 @@ conky.text = [[${font openlogos:size=20}U${font Arial:size=20}${color Tan1}GNU${
 $sysname $kernel $alignr $machine
 Down $alignr ${downspeed eth0} kb/s
 Up $alignr ${upspeed eth0} kb/s
--- ${ibm_temps 3} --can't open '/proc/acpi/ibm/thermal': No such file or directory
--- ${execi 1800 conkyForecast –location=BEXX0008 –datatype=WF}
+
+-- ibm_temps 3 --can't open '/proc/acpi/ibm/thermal': No such file or directory
+-- execi 1800 conkyForecast –location=BEXX0008 –datatype=WF
 -- https://www.dafont.com/
 -- https://conky.sourceforge.net/variables.html
 ]]
