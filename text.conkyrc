@@ -5,5 +5,7 @@ conky.config = {
 };
 conky.text = [[${font openlogos:size=20}U${font Arial:size=20}${color Tan1}GNU${color Ivory}LINUX${font openlogos:size=20}t|${time %H:%M}|free space:${fs_free /}|$loadavg|free mem:$memeasyfree|ip $addr|memory bar $membar 
 $sysname $kernel $alignr $machine
-
+Down $alignr ${downspeed eth0} kb/s
+Up $alignr ${upspeed eth0} kb/s
+${execi 1800 conkyForecast –location=BEXX0008 –datatype=WF}
 ]]
