@@ -27,9 +27,9 @@ sudo virsh net-autostart default
 
 sudo virsh net-list --all
 
- # Name      State      Autostart   Persistent
- # ----------------------------------------------
- # default   active       yes          yes
+# Name      State      Autostart   Persistent
+# ----------------------------------------------
+# default   active       yes          yes
 
 # Add User to libvirt to Allow Access to VMs
 
